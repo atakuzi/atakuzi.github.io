@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: ATAZ Cybersecurity
+title: AtazTech Labs
 
 # Your name to show in the footer
-author: ATAZ LLC
+author: AtazTech
 
 # --- List of links in the navigation bar --- #
 
@@ -17,7 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home:
+
 
 # --- Logo --- #
 
