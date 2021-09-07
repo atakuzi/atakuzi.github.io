@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Sample blog post
+title: Welcome to my blog
 subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+gh-repo: atakuzi/atakuzi.github.io
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
