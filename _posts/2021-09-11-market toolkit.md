@@ -360,8 +360,8 @@ There are two general approaches to investing: active and passive. Active invest
 ---
 ###### [TOC](#toc)
 **<a id="crypto"></a>CRYPTOCURRENCIES:**
-- <a id="crypto"></a>General Crypto
-- ** [A Crypto Primer: Currencies, Commodities, Tokens](https://www.investopedia.com/tech/crypto-primer-currencies-commodities-tokens/)
+- [A Crypto Primer: Currencies, Commodities, Tokens](https://www.investopedia.com/tech/crypto-primer-currencies-commodities-tokens/)
+###### [TOC](#toc)
 
 **<a id="youtube"></a>YOUTUBE CHANNELS:**
 - **[LazyFA - Lots of Educational Livestreams/Webinars](https://www.youtube.com/channel/UCQ9LMi4xPU1zCICplsAe7Jw/)**
