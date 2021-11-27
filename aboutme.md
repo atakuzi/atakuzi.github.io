@@ -1,14 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: My interests
+subtitle: Cybersecurity Professional
 ---
-
-I enjoy learning new things.
-- I'm extremely loyal to my family
-
-What else do you need?
+- Experienced Leader & Manager at the Tactical, Operational, and Strategic Levels 
+- Certified Information Systems Security Professional (CISSP®)
+- Myers-Briggs: INTJ | DISC: Di “The Driver” | Enneagram: Type 1, “Reformer” | Kiersey: “The Guardian” 
+- CliftonStrengths: Futuristic, Responsibility, Restorative, Intellection, Input, Achiever 
+- Wired for Action | Enthusiastic | Intuitive | Charismatic | Team-oriented | Adaptable | Optimistic 
 
 ### My story
+I became fascinated with computers and web development in 1997 when I was attending NYU graduate school. 
+My first job was technical producer for CNET. I became very interested in cybersecurity and digital forensics in 2014.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
