@@ -7,8 +7,6 @@
 
 - Cybersecurity professional with leadership experience at tactical, operational, and strategic levels.
 - Certified Information Systems Security Professional (CISSP®).
-- Personality & strengths: INTJ (MBTI); DISC: Di “The Driver”; Enneagram: Type 1 “Reformer”; CliftonStrengths such as Futuristic, Responsibility, Restorative, Intellection, Input, Achiever.
-- Background: began working with web development in 1997 while at NYU Wagner; first post-grad role was as a technical web producer at CNET; became focused on cybersecurity and digital forensics around 2014 and has since pursued roles and education in that field.
 
 For the full bio and details, see `aboutme.md`.
 
