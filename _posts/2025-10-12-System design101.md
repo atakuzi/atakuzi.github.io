@@ -1,6 +1,4 @@
-<p>
-  <a href="https://blog.bytebytego.com/?utm_source=site"><img src=".github/banner.jpg" /> </a>
-</p>
+<p> Credit to <a href ="https://bytebytego.com/guides/">ByteByteGo </a>
 
 <p align="center">
   【
