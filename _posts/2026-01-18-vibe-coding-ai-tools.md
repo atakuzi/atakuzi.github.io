@@ -12,24 +12,21 @@ Whether you're a seasoned developer or just getting started, these AI-powered to
 
 ## Code Generation & Completion
 
-### GitHub Copilot
-**Website:** https://github.com/features/copilot
+### [GitHub Copilot](https://github.com/features/copilot)
 
 The industry standard for AI code completion. Copilot understands your context and suggests entire functions, reducing boilerplate and letting you focus on logic.
 - VSCode, JetBrains IDEs, and Vim support
 - Context-aware suggestions
 - Multi-language support
 
-### Claude by Anthropic
-**Website:** https://claude.ai
+### [Claude by Anthropic](https://claude.ai)
 
 An advanced AI assistant for pair programming and code generation. Claude excels at explaining code, refactoring, and architectural discussions.
 - Web interface and API
 - Long context window for large codebases
 - Excellent for design reviews
 
-### Amazon CodeWhisperer
-**Website:** https://aws.amazon.com/codewhisperer/
+### [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/)
 
 AWS's code generation tool integrated into their ecosystem. Great for cloud-focused development.
 - Free tier available
@@ -38,16 +35,14 @@ AWS's code generation tool integrated into their ecosystem. Great for cloud-focu
 
 ## Debugging & Analysis
 
-### GitHub Copilot Chat
-**Website:** https://github.com/features/copilot#chat
+### [GitHub Copilot Chat](https://github.com/features/copilot#chat)
 
 Interactive debugging and code analysis directly in your editor. Ask questions about errors and get solutions.
 - Integrated in VSCode and JetBrains IDEs
 - Real-time debugging assistance
 - Contextual code explanations
 
-### Cursor
-**Website:** https://www.cursor.com
+### [Cursor](https://www.cursor.com)
 
 An IDE built for AI-assisted development with deep integration of language models.
 - Built-in AI chat and editing
@@ -56,16 +51,14 @@ An IDE built for AI-assisted development with deep integration of language model
 
 ## Testing & Documentation
 
-### GitHub Copilot for Docs
-**Website:** https://github.com/features/copilot#features
+### [GitHub Copilot for Docs](https://github.com/features/copilot#features)
 
 Auto-generate documentation and docstrings for your code.
 - Reduces documentation overhead
 - Maintains code-doc consistency
 - Improves code readability
 
-### Tabnine
-**Website:** https://www.tabnine.com
+### [Tabnine](https://www.tabnine.com)
 
 AI-powered code completion with deep learning. Works with your existing IDE.
 - Whole-line completions
@@ -74,16 +67,14 @@ AI-powered code completion with deep learning. Works with your existing IDE.
 
 ## AI-First Development Platforms
 
-### Replit
-**Website:** https://replit.com
+### [Replit](https://replit.com)
 
 Cloud-based IDE with built-in AI assistance and one-click deployments.
 - Web-based, no setup required
 - AI help built-in
 - Instant deployment
 
-### Vercel AI SDK
-**Website:** https://github.com/vercel/ai
+### [Vercel AI SDK](https://github.com/vercel/ai)
 
 Framework for building AI-powered applications with TypeScript/JavaScript.
 - Unified API for multiple models
@@ -92,8 +83,7 @@ Framework for building AI-powered applications with TypeScript/JavaScript.
 
 ## Architecture & Design
 
-### Eraser
-**Website:** https://www.eraser.io
+### [Eraser](https://www.eraser.io)
 
 Visual whiteboarding with AI that helps you design system architectures and create diagrams.
 - System design templates
@@ -102,16 +92,14 @@ Visual whiteboarding with AI that helps you design system architectures and crea
 
 ## Specialized Tools
 
-### v0 by Vercel
-**Website:** https://v0.dev
+### [v0 by Vercel](https://v0.dev)
 
 Generate React components with AI from text descriptions and sketches.
 - Shadow coding and rapid iteration
 - Beautiful component generation
 - Vercel deployment integration
 
-### Codeium
-**Website:** https://codeium.com
+### [Codeium](https://codeium.com)
 
 Free alternative to GitHub Copilot with strong language support.
 - No telemetry
