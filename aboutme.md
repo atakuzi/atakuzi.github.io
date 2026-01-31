@@ -14,21 +14,12 @@ Cybersecurity and cloud operations leader with over 20 years of experience spann
 - Team-oriented, Adaptable, Results-driven
 
 ### My Story
-My journey into technology began in 1997 while attending NYU Wagner Graduate School of Public Service. After graduate school, I started my career as an Associate Technical Producer at [CNET](https://www.cnet.com/ "CNET"), deploying updates across major platforms using HTML, CSS, and version control systems.
+My journey into technology began while attending NYU Wagner Graduate School of Public Service. After graduate school, I started my career as an Associate Technical Producer at [CNET](https://www.cnet.com/ "CNET"), deploying updates across major platforms using HTML, CSS, and version control systems.
 
-In 2007, I transitioned to the defense sector, progressing through IT leadership roles at the Defense Threat Reduction Agency, Defense Logistics Agency, and Defense Information Systems Agency, managing enterprise IT projects and systems operations.
+I transitioned to the defense sector, progressing through IT leadership roles at various defense agencies, managing enterprise IT projects and systems operations.
 
-My pivot to cybersecurity came in 2014, driven by the evolving threat landscape. I pursued rigorous training and education, earning a Master of Science in Cybersecurity from National Defense University (2019) and completing specialized courses including the Cyber Warfare Officer Course and Electromagnetic Warfare Officer qualification.
+My pivot to cybersecurity was driven by the evolving threat landscape. I pursued rigorous training and education, earning a Master of Science in Cybersecurity from National Defense University and completing specialized courses in cyber warfare and electromagnetic operations.
 
-### Education
-
-**Master of Science in Cybersecurity**
-National Defense University (2019)
-*Government Information Leadership (GIL) Degree Program*
-
-**Master of Public Administration**
-NYU Robert F. Wagner Graduate School of Public Service (2000)
-*Specialization: Non-Profit/Public/Organizational Management*
 
 
 ### Professional Philosophy
