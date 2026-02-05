@@ -97,16 +97,16 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+navbar-col: "#EFE7DD"
+navbar-text-col: "#3F3A32"
+navbar-border-col: "#E0D4C7"
+page-col: "#F7F3EE"
+text-col: "#3F3A32"
+link-col: "#8B5E3C"
+hover-col: "#6F4A2E"
+footer-col: "#EFE7DD"
+footer-text-col: "#6A5A4A"
+footer-link-col: "#3F3A32"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -233,4 +233,3 @@ plugins:
 
 # Credit host: Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
