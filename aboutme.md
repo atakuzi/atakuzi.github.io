@@ -1,14 +1,26 @@
 ---
 layout: page
 title: About me
-subtitle: Cybersecurity Professional
+subtitle: Cybersecurity & Cloud Operations Leader
 ---
-- Experienced Leader & Manager at the Tactical, Operational, and Strategic Levels 
+
+### Professional Summary
+Cybersecurity and cloud operations leader with over 20 years of experience spanning tactical operations, strategic planning, and IT management across defense and commercial sectors with expertise in cyberspace operations, electromagnetic warfare, and cloud platforms.
+
+**Core Strengths:**
+- Tactical, Operational, and Strategic Leadership
 - Certified Information Systems Security Professional (CISSP®)
-- Wired for Action, Enthusiastic, Intuitive, Team-oriented, Adaptable, Optimistic 
+- Cloud Operations & Cyberspace Operations
+- Team-oriented, Adaptable, Results-driven
 
-### My story
-I became fascinated with computers and web development in 1997 while I was attending NYU Wagner Graduate School of Public service. 
-My first job after graduate school was working as a web technical producer for [CNET](https://www.cnet.com/ "CNET"). I became very interested in cybersecurity and digital forensics in 2014.
-Since then, I have pursued different educational and work opportunities to become an expert in the field of cybersecurity.
+### My Story
+My journey into technology began while attending NYU Wagner Graduate School of Public Service. After graduate school, I started my career as an Associate Technical Producer at [CNET](https://www.cnet.com/ "CNET"), deploying updates across major platforms using HTML, CSS, and version control systems.
 
+I transitioned to the defense sector, progressing through IT leadership roles at various defense agencies, managing enterprise IT projects and systems operations.
+
+My pivot to cybersecurity was driven by the evolving threat landscape. I pursued rigorous training and education, earning a Master of Science in Cybersecurity from National Defense University and completing specialized courses in cyber warfare and electromagnetic operations.
+
+
+
+### Professional Philosophy
+I am wired for action, enthusiastic about emerging technologies, and committed to leading high-performing teams in defending our digital infrastructure. My diverse background across commercial technology, enterprise IT, and military cyberspace operations provides a unique perspective on solving complex security and operational challenges in today's dynamic threat environment.
