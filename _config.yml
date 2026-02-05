@@ -4,8 +4,11 @@
 
 # --- Required options --- #
 
+# URL of the website (required for sitemap, RSS feed, and absolute URLs)
+url: "https://atakuzi.com"
+
 # Name of website
-title: Ataz Labs 
+title: Ataz Labs
 
 # Your name to show in the footer
 author: Ataz Labs

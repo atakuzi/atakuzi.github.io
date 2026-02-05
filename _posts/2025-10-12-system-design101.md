@@ -1,3 +1,11 @@
+---
+layout: post
+title: "System Design 101"
+subtitle: "A comprehensive guide to system design concepts and patterns"
+date: 2025-10-12
+tags: [system-design, architecture, engineering, interview-prep]
+---
+
 <p>Credit to <a href="https://bytebytego.com/guides/">ByteByteGo</a></p>
 
 <p align="center">

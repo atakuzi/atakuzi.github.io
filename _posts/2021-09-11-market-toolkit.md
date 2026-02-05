@@ -1,3 +1,11 @@
+---
+layout: post
+title: "The Ultimate Stock Market Toolkit"
+subtitle: "A comprehensive collection of trading tools, resources, and educational materials"
+date: 2021-09-11
+tags: [stocks, trading, investing, finance, tools]
+---
+
 # THE ULTIMATE STOCK MARKET TOOLKIT
 Content from and Credit to: [Market Toolkit](https://github.com/ckz8780/market-toolkit "Market Toolkit")
 
