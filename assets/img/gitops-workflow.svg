@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8B5E3C"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="380" fill="#FDFAF6" rx="12"/>
+
+  <!-- ── Box dimensions: 165 × 85 ── -->
+  <!-- TL box center (190, 120): rect (107, 77) -->
+  <!-- TR box center (610, 120): rect (527, 77) -->
+  <!-- BR box center (610, 290): rect (527, 247) -->
+  <!-- BL box center (190, 290): rect (107, 247) -->
+
+  <!-- Arrows (straight, between box edges) -->
+  <!-- TL right → TR left: y=120 -->
+  <line x1="272" y1="120" x2="527" y2="120" stroke="#8B5E3C" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- TR bottom → BR top: x=610 -->
+  <line x1="610" y1="162" x2="610" y2="247" stroke="#8B5E3C" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- BR left → BL right: y=290 -->
+  <line x1="527" y1="290" x2="272" y2="290" stroke="#8B5E3C" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- BL top → TL bottom: x=190 -->
+  <line x1="190" y1="247" x2="190" y2="162" stroke="#8B5E3C" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Arrow labels -->
+  <!-- Top: git push / pull request -->
+  <rect x="340" y="99" width="120" height="20" rx="4" fill="#EFE7DD"/>
+  <text x="400" y="113" text-anchor="middle" font-size="10.5" fill="#5A3E28" font-weight="600">git push / PR merge</text>
+  <!-- Right: watches &amp; syncs -->
+  <rect x="622" y="195" width="108" height="20" rx="4" fill="#EFE7DD"/>
+  <text x="676" y="209" text-anchor="middle" font-size="10.5" fill="#5A3E28" font-weight="600">watches changes</text>
+  <!-- Bottom: applies desired state -->
+  <rect x="316" y="271" width="168" height="20" rx="4" fill="#EFE7DD"/>
+  <text x="400" y="285" text-anchor="middle" font-size="10.5" fill="#5A3E28" font-weight="600">applies desired state</text>
+  <!-- Left: drift alert -->
+  <rect x="62" y="195" width="114" height="20" rx="4" fill="#EFE7DD"/>
+  <text x="119" y="209" text-anchor="middle" font-size="10.5" fill="#5A3E28" font-weight="600">drift → alert</text>
+
+  <!-- TL Box: Developer -->
+  <rect x="107" y="77" width="165" height="85" rx="9" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="107" y="77" width="165" height="30" rx="9" fill="#8B5E3C"/>
+  <rect x="107" y="95"  width="165" height="12"  fill="#8B5E3C"/>
+  <text x="189" y="97"  text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">Developer</text>
+  <text x="189" y="122" text-anchor="middle" font-size="10.5" fill="#3F3A32">Write &amp; commit code</text>
+  <text x="189" y="140" text-anchor="middle" font-size="10" fill="#6F4A2E">Opens pull requests</text>
+
+  <!-- TR Box: Git Repository -->
+  <rect x="527" y="77" width="165" height="85" rx="9" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="527" y="77" width="165" height="30" rx="9" fill="#8B5E3C"/>
+  <rect x="527" y="95"  width="165" height="12"  fill="#8B5E3C"/>
+  <text x="609" y="97"  text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">Git Repository</text>
+  <text x="609" y="122" text-anchor="middle" font-size="10.5" fill="#3F3A32">Single source of truth</text>
+  <text x="609" y="140" text-anchor="middle" font-size="10" fill="#6F4A2E">Declarative desired state</text>
+
+  <!-- BR Box: GitOps Operator -->
+  <rect x="527" y="247" width="165" height="85" rx="9" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="527" y="247" width="165" height="30" rx="9" fill="#8B5E3C"/>
+  <rect x="527" y="265"  width="165" height="12"  fill="#8B5E3C"/>
+  <text x="609" y="267"  text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">GitOps Operator</text>
+  <text x="609" y="292" text-anchor="middle" font-size="10.5" fill="#3F3A32">ArgoCD · Flux CD</text>
+  <text x="609" y="310" text-anchor="middle" font-size="10" fill="#6F4A2E">Continuous reconciliation</text>
+
+  <!-- BL Box: Infrastructure -->
+  <rect x="107" y="247" width="165" height="85" rx="9" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="107" y="247" width="165" height="30" rx="9" fill="#8B5E3C"/>
+  <rect x="107" y="265"  width="165" height="12"  fill="#8B5E3C"/>
+  <text x="189" y="267"  text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">Infrastructure</text>
+  <text x="189" y="292" text-anchor="middle" font-size="10.5" fill="#3F3A32">Kubernetes · Cloud</text>
+  <text x="189" y="310" text-anchor="middle" font-size="10" fill="#6F4A2E">Actual running state</text>
+
+  <!-- Center label -->
+  <text x="400" y="198" text-anchor="middle" font-size="16" font-weight="700" fill="#8B5E3C" letter-spacing="2">GitOps</text>
+  <text x="400" y="218" text-anchor="middle" font-size="11" fill="#A09080" font-style="italic">closed-loop automation</text>
+
+  <!-- Caption -->
+  <text x="400" y="362" text-anchor="middle" font-size="11" fill="#A09080" font-style="italic">The GitOps control loop — Git is always the single source of truth</text>
+
+</svg>

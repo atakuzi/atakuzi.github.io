@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 310" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+
+  <defs>
+    <marker id="parrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8B5E3C"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="310" fill="#FDFAF6" rx="12"/>
+
+  <!-- Shift-left gradient bar -->
+  <defs>
+    <linearGradient id="shiftGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7BAF7B" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C45C3C" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="258" width="760" height="22" rx="5" fill="url(#shiftGrad)"/>
+  <text x="30"  y="273" font-size="10.5" fill="#3A5A3A" font-weight="700">← SHIFT LEFT (cheaper)</text>
+  <text x="770" y="273" text-anchor="end" font-size="10.5" fill="#7A2A10" font-weight="700">(more expensive) SHIFT RIGHT →</text>
+
+  <!-- Box dimensions: 162 × 100, gap: 26 -->
+  <!-- Box 1: x=20,  center (101, 129) -->
+  <!-- Box 2: x=208, center (289, 129) -->
+  <!-- Box 3: x=396, center (477, 129) -->
+  <!-- Box 4: x=584, center (665, 129) -->
+  <!-- Rightmost right edge: 584+162=746, total width 800 with 27px each side roughly -->
+
+  <!-- Arrows between boxes -->
+  <line x1="182" y1="129" x2="208" y2="129" stroke="#8B5E3C" stroke-width="2" marker-end="url(#parrow)"/>
+  <line x1="370" y1="129" x2="396" y2="129" stroke="#8B5E3C" stroke-width="2" marker-end="url(#parrow)"/>
+  <line x1="558" y1="129" x2="584" y2="129" stroke="#8B5E3C" stroke-width="2" marker-end="url(#parrow)"/>
+
+  <!-- Box 1: Pre-commit -->
+  <rect x="20"  y="79" width="162" height="100" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="20"  y="79" width="162" height="32"  rx="8" fill="#8B5E3C"/>
+  <rect x="20"  y="100" width="162" height="11" fill="#8B5E3C"/>
+  <text x="101" y="100" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">1. Pre-commit</text>
+  <text x="101" y="129" text-anchor="middle" font-size="10" fill="#3F3A32" font-weight="600">Developer Machine</text>
+  <text x="101" y="147" text-anchor="middle" font-size="10" fill="#6F4A2E">Checkov · tflint</text>
+  <text x="101" y="163" text-anchor="middle" font-size="10" fill="#6F4A2E">git hooks</text>
+
+  <!-- Box 2: CI Pipeline -->
+  <rect x="208" y="79" width="162" height="100" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="208" y="79" width="162" height="32"  rx="8" fill="#8B5E3C"/>
+  <rect x="208" y="100" width="162" height="11" fill="#8B5E3C"/>
+  <text x="289" y="100" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">2. CI Pipeline</text>
+  <text x="289" y="129" text-anchor="middle" font-size="10" fill="#3F3A32" font-weight="600">Pull Request Gate</text>
+  <text x="289" y="147" text-anchor="middle" font-size="10" fill="#6F4A2E">OPA · Checkov</text>
+  <text x="289" y="163" text-anchor="middle" font-size="10" fill="#6F4A2E">tfsec · Trivy</text>
+
+  <!-- Box 3: Admission Control -->
+  <rect x="396" y="79" width="162" height="100" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="396" y="79" width="162" height="32"  rx="8" fill="#8B5E3C"/>
+  <rect x="396" y="100" width="162" height="11" fill="#8B5E3C"/>
+  <text x="477" y="100" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">3. Admission Control</text>
+  <text x="477" y="129" text-anchor="middle" font-size="10" fill="#3F3A32" font-weight="600">Kubernetes Runtime</text>
+  <text x="477" y="147" text-anchor="middle" font-size="10" fill="#6F4A2E">OPA Gatekeeper</text>
+  <text x="477" y="163" text-anchor="middle" font-size="10" fill="#6F4A2E">Kyverno</text>
+
+  <!-- Box 4: Continuous Monitoring -->
+  <rect x="584" y="79" width="162" height="100" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="584" y="79" width="162" height="32"  rx="8" fill="#8B5E3C"/>
+  <rect x="584" y="100" width="162" height="11" fill="#8B5E3C"/>
+  <text x="665" y="100" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">4. Monitoring</text>
+  <text x="665" y="129" text-anchor="middle" font-size="10" fill="#3F3A32" font-weight="600">Post-Deployment</text>
+  <text x="665" y="147" text-anchor="middle" font-size="10" fill="#6F4A2E">AWS Config</text>
+  <text x="665" y="163" text-anchor="middle" font-size="10" fill="#6F4A2E">Azure Policy · OPA</text>
+
+  <!-- "Violations blocked" badges -->
+  <rect x="50"  y="55" width="102" height="18" rx="9" fill="#5A8A5A"/>
+  <text x="101" y="67" text-anchor="middle" font-size="9.5" fill="#FFFFFF" font-weight="600">Instant feedback</text>
+  <rect x="238" y="55" width="102" height="18" rx="9" fill="#7A8A5A"/>
+  <text x="289" y="67" text-anchor="middle" font-size="9.5" fill="#FFFFFF" font-weight="600">PR blocked</text>
+  <rect x="426" y="55" width="102" height="18" rx="9" fill="#9A7A3A"/>
+  <text x="477" y="67" text-anchor="middle" font-size="9.5" fill="#FFFFFF" font-weight="600">Deploy rejected</text>
+  <rect x="614" y="55" width="102" height="18" rx="9" fill="#9A4A3A"/>
+  <text x="665" y="67" text-anchor="middle" font-size="9.5" fill="#FFFFFF" font-weight="600">Drift detected</text>
+
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" font-size="14" font-weight="700" fill="#3F3A32">Policy as Code — Enforcement Layers</text>
+
+  <!-- Caption -->
+  <text x="400" y="295" text-anchor="middle" font-size="11" fill="#A09080" font-style="italic">Every layer reinforces the others — violations caught earlier cost less to fix</text>
+
+</svg>

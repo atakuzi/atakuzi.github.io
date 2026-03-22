@@ -119,36 +119,10 @@ Each of these can be implemented in a single policy file and added to your pipel
 
 Here's what a mature Policy as Code pipeline looks like:
 
-```
-Developer writes Terraform code
-        │
-        ▼
-Pre-commit: Checkov scans locally
-        │
-        ▼
-Pull Request opened
-        │
-        ▼
-CI Pipeline runs:
-  ├── terraform plan
-  ├── OPA evaluates plan against policies
-  ├── Checkov scans IaC files
-  ├── tfsec scans for misconfigurations
-  └── Secret scanner checks for credentials
-        │
-        ▼
-All checks pass → PR can be merged
-        │
-        ▼
-terraform apply (via GitOps)
-        │
-        ▼
-Kubernetes admission controller
-validates deployed resources
-        │
-        ▼
-Continuous monitoring detects drift
-```
+<figure class="post-figure">
+  <img src="/assets/img/policy-pipeline.svg" alt="Policy as Code enforcement pipeline: Pre-commit → CI Pipeline → Admission Control → Continuous Monitoring, with shift-left principle shown">
+  <figcaption>Four enforcement layers — violations caught earlier are dramatically cheaper to fix</figcaption>
+</figure>
 
 Every layer reinforces the others. A violation caught at any stage is logged, reported, and blocked.
 

@@ -12,6 +12,11 @@ Open source software (OSS) has fundamentally transformed the way we build, deplo
 
 The open source model offers a unique combination of rapid innovation, community-driven quality control, and unparalleled flexibility. In this post, we'll explore why open source tools are essential for modern developers and highlight some of the most impactful tools in the ecosystem.
 
+<figure class="post-figure">
+  <img src="/assets/img/open-source-ecosystem.svg" alt="Open Source Ecosystem — five key tool categories: Version Control, Containers, Infrastructure as Code, CI/CD, and Monitoring">
+  <figcaption>The five core pillars of the modern open source development stack</figcaption>
+</figure>
+
 ## Why Open Source Wins
 
 ### 1. Collaborative Innovation

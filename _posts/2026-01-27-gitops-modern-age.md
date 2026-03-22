@@ -80,6 +80,11 @@ GitOps provides the operational backbone for this software-centric approach to w
 3. **Automated Reconciliation** - Systems continuously work toward declared state
 4. **Observable** - Know the actual state of every system at all times
 
+<figure class="post-figure">
+  <img src="/assets/img/gitops-workflow.svg" alt="GitOps closed-loop workflow: Developer → Git Repository → GitOps Operator → Infrastructure → back to Developer">
+  <figcaption>The GitOps control loop — every change is declared in Git and automatically reconciled</figcaption>
+</figure>
+
 **Tools of the Trade**
 
 - **Kubernetes + Flux/ArgoCD** - For container orchestration and GitOps automation

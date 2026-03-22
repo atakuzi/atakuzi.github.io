@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+
+  <defs>
+    <marker id="dot1" markerWidth="6" markerHeight="6" refX="3" refY="3">
+      <circle cx="3" cy="3" r="2.5" fill="#C4956A"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="470" fill="#FDFAF6" rx="12"/>
+
+  <!-- Spoke lines (from center circle edge to nearest node edge) -->
+  <!-- Center: (400, 255), r=62 -->
+  <!-- Top (400,95): spoke (400,193)→(400,135) -->
+  <line x1="400" y1="193" x2="400" y2="135" stroke="#D4B896" stroke-width="2" stroke-dasharray="5,4" marker-start="url(#dot1)" marker-end="url(#dot1)"/>
+  <!-- TR (552,206): spoke (457,237)→(464,206) -->
+  <line x1="457" y1="237" x2="464" y2="206" stroke="#D4B896" stroke-width="2" stroke-dasharray="5,4" marker-start="url(#dot1)" marker-end="url(#dot1)"/>
+  <!-- BR (494,385): spoke (435,304)→(494,345) -->
+  <line x1="435" y1="304" x2="494" y2="345" stroke="#D4B896" stroke-width="2" stroke-dasharray="5,4" marker-start="url(#dot1)" marker-end="url(#dot1)"/>
+  <!-- BL (306,385): spoke (365,304)→(306,345) -->
+  <line x1="365" y1="304" x2="306" y2="345" stroke="#D4B896" stroke-width="2" stroke-dasharray="5,4" marker-start="url(#dot1)" marker-end="url(#dot1)"/>
+  <!-- TL (248,206): spoke (343,237)→(335,206) -->
+  <line x1="343" y1="237" x2="335" y2="206" stroke="#D4B896" stroke-width="2" stroke-dasharray="5,4" marker-start="url(#dot1)" marker-end="url(#dot1)"/>
+
+  <!-- Center Node -->
+  <circle cx="400" cy="255" r="68" fill="#8B5E3C"/>
+  <circle cx="400" cy="255" r="65" fill="#8B5E3C" stroke="#D4A373" stroke-width="2.5"/>
+  <text x="400" y="248" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Open</text>
+  <text x="400" y="268" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Source</text>
+
+  <!-- Node 1: Version Control (Top) — center (400, 95), rect (312,55,175,80) -->
+  <rect x="312" y="55" width="175" height="80" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="312" y="55" width="175" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="312" y="71"  width="175" height="12" fill="#8B5E3C"/>
+  <text x="399" y="74" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Version Control</text>
+  <text x="399" y="98"  text-anchor="middle" font-size="10.5" fill="#3F3A32">Git · GitHub · GitLab</text>
+  <text x="399" y="114" text-anchor="middle" font-size="10.5" fill="#6F4A2E">Bitbucket · Gitea</text>
+
+  <!-- Node 2: Containers (Top-Right) — center (552, 206), rect (464,166,175,80) -->
+  <rect x="464" y="166" width="190" height="80" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="464" y="166" width="190" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="464" y="182" width="190" height="12" fill="#8B5E3C"/>
+  <text x="559" y="185" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Containers</text>
+  <text x="559" y="209" text-anchor="middle" font-size="10.5" fill="#3F3A32">Docker · Kubernetes</text>
+  <text x="559" y="225" text-anchor="middle" font-size="10.5" fill="#6F4A2E">Helm · Containerd</text>
+
+  <!-- Node 3: IaC (Bottom-Right) — center (494, 385), rect (406,345,175,80) -->
+  <rect x="406" y="345" width="205" height="80" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="406" y="345" width="205" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="406" y="361" width="205" height="12" fill="#8B5E3C"/>
+  <text x="508" y="364" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Infrastructure as Code</text>
+  <text x="508" y="388" text-anchor="middle" font-size="10.5" fill="#3F3A32">Terraform · Ansible</text>
+  <text x="508" y="404" text-anchor="middle" font-size="10.5" fill="#6F4A2E">OpenTofu · Pulumi</text>
+
+  <!-- Node 4: CI/CD (Bottom-Left) — center (306, 385), rect (218,345,175,80) -->
+  <rect x="188" y="345" width="205" height="80" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="188" y="345" width="205" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="188" y="361" width="205" height="12" fill="#8B5E3C"/>
+  <text x="290" y="364" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">CI/CD Automation</text>
+  <text x="290" y="388" text-anchor="middle" font-size="10.5" fill="#3F3A32">Jenkins · GitHub Actions</text>
+  <text x="290" y="404" text-anchor="middle" font-size="10.5" fill="#6F4A2E">GitLab CI · Tekton</text>
+
+  <!-- Node 5: Monitoring (Top-Left) — center (248, 206), rect (160,166,175,80) -->
+  <rect x="145" y="166" width="190" height="80" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="145" y="166" width="190" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="145" y="182" width="190" height="12" fill="#8B5E3C"/>
+  <text x="240" y="185" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Monitoring</text>
+  <text x="240" y="209" text-anchor="middle" font-size="10.5" fill="#3F3A32">Prometheus · Grafana</text>
+  <text x="240" y="225" text-anchor="middle" font-size="10.5" fill="#6F4A2E">OpenTelemetry · ELK</text>
+
+  <!-- Caption -->
+  <text x="400" y="452" text-anchor="middle" font-size="11" fill="#A09080" font-style="italic">Five pillars of the modern open source development stack</text>
+
+</svg>
