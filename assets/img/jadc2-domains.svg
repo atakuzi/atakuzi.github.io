@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif">
+
+  <defs>
+    <marker id="jarrow-up" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#8B5E3C"/>
+    </marker>
+    <marker id="jarrow-down" markerWidth="9" markerHeight="7" refX="0" refY="3.5" orient="auto-start-reverse">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#8B5E3C"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="430" fill="#FDFAF6" rx="12"/>
+
+  <!-- ── Central Data Bus Bar ── -->
+  <rect x="30" y="202" width="740" height="48" rx="8" fill="#3F3A32" stroke="#C4956A" stroke-width="1.5"/>
+  <text x="400" y="222" text-anchor="middle" font-size="13.5" font-weight="700" fill="#EFE7DD" letter-spacing="2">JADC2  DATA  FABRIC</text>
+  <text x="400" y="241" text-anchor="middle" font-size="10" fill="#C4956A" letter-spacing="1">Real-time sensor fusion · Event-driven · Zero Trust · All-Domain</text>
+
+  <!-- ── Connector arrows (bidirectional) ── -->
+  <!-- Connectors at x = 105 (Space), 400 (Air), 695 (Cyber) above bar -->
+  <!-- Connectors at x = 253 (Land), 547 (Maritime) below bar -->
+
+  <!-- Space (above): node bottom y=168 → bar top y=202 -->
+  <line x1="105" y1="202" x2="105" y2="172" stroke="#8B5E3C" stroke-width="2"
+        marker-end="url(#jarrow-up)" marker-start="url(#jarrow-down)"/>
+
+  <!-- Air (above) -->
+  <line x1="400" y1="202" x2="400" y2="172" stroke="#8B5E3C" stroke-width="2"
+        marker-end="url(#jarrow-up)" marker-start="url(#jarrow-down)"/>
+
+  <!-- Cyber (above) -->
+  <line x1="695" y1="202" x2="695" y2="172" stroke="#8B5E3C" stroke-width="2"
+        marker-end="url(#jarrow-up)" marker-start="url(#jarrow-down)"/>
+
+  <!-- Land (below): bar bottom y=250 → node top y=302 -->
+  <line x1="253" y1="250" x2="253" y2="298" stroke="#8B5E3C" stroke-width="2"
+        marker-end="url(#jarrow-down)" marker-start="url(#jarrow-up)"/>
+
+  <!-- Maritime (below) -->
+  <line x1="547" y1="250" x2="547" y2="298" stroke="#8B5E3C" stroke-width="2"
+        marker-end="url(#jarrow-down)" marker-start="url(#jarrow-up)"/>
+
+  <!-- ── ABOVE-BAR Nodes ── (top y=92, height=76) -->
+
+  <!-- Node: Space Domain (x=105) -->
+  <rect x="28"  y="92" width="154" height="76" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="28"  y="92" width="154" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="28"  y="108" width="154" height="12" fill="#8B5E3C"/>
+  <text x="105" y="111" text-anchor="middle" font-size="11"   font-weight="700" fill="#FFFFFF">Space Domain</text>
+  <text x="105" y="135" text-anchor="middle" font-size="10.5" fill="#3F3A32">Space Force</text>
+  <text x="105" y="153" text-anchor="middle" font-size="10"   fill="#6F4A2E">GPSOC · SDA</text>
+
+  <!-- Node: Air Domain (x=400) -->
+  <rect x="323" y="92" width="154" height="76" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="323" y="92" width="154" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="323" y="108" width="154" height="12" fill="#8B5E3C"/>
+  <text x="400" y="111" text-anchor="middle" font-size="11"   font-weight="700" fill="#FFFFFF">Air Domain</text>
+  <text x="400" y="135" text-anchor="middle" font-size="10.5" fill="#3F3A32">Air Force</text>
+  <text x="400" y="153" text-anchor="middle" font-size="10"   fill="#6F4A2E">ABMS · F-35 Network</text>
+
+  <!-- Node: Cyber Domain (x=695) -->
+  <rect x="618" y="92" width="154" height="76" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="618" y="92" width="154" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="618" y="108" width="154" height="12" fill="#8B5E3C"/>
+  <text x="695" y="111" text-anchor="middle" font-size="11"   font-weight="700" fill="#FFFFFF">Cyber Domain</text>
+  <text x="695" y="135" text-anchor="middle" font-size="10.5" fill="#3F3A32">USCYBERCOM</text>
+  <text x="695" y="153" text-anchor="middle" font-size="10"   fill="#6F4A2E">CDO · Zero Trust</text>
+
+  <!-- ── BELOW-BAR Nodes ── (top y=302, height=76) -->
+
+  <!-- Node: Land Domain (x=253) -->
+  <rect x="176" y="302" width="154" height="76" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="176" y="302" width="154" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="176" y="318" width="154" height="12" fill="#8B5E3C"/>
+  <text x="253" y="321" text-anchor="middle" font-size="11"   font-weight="700" fill="#FFFFFF">Land Domain</text>
+  <text x="253" y="345" text-anchor="middle" font-size="10.5" fill="#3F3A32">Army</text>
+  <text x="253" y="363" text-anchor="middle" font-size="10"   fill="#6F4A2E">Project Convergence</text>
+
+  <!-- Node: Maritime Domain (x=547) -->
+  <rect x="470" y="302" width="154" height="76" rx="8" fill="#EFE7DD" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="470" y="302" width="154" height="28" rx="8" fill="#8B5E3C"/>
+  <rect x="470" y="318" width="154" height="12" fill="#8B5E3C"/>
+  <text x="547" y="321" text-anchor="middle" font-size="11"   font-weight="700" fill="#FFFFFF">Maritime Domain</text>
+  <text x="547" y="345" text-anchor="middle" font-size="10.5" fill="#3F3A32">Navy / Marines</text>
+  <text x="547" y="363" text-anchor="middle" font-size="10"   fill="#6F4A2E">Project Overmatch</text>
+
+  <!-- "Sensor data in" label above -->
+  <text x="400" y="52" text-anchor="middle" font-size="13" font-weight="700" fill="#3F3A32">Five Domains. One Data Fabric.</text>
+  <text x="400" y="72" text-anchor="middle" font-size="10.5" fill="#A09080" font-style="italic">Any sensor can cue any shooter — across any domain — in real time</text>
+
+  <!-- Caption -->
+  <text x="400" y="410" text-anchor="middle" font-size="11" fill="#A09080" font-style="italic">JADC2 connects five warfighting domains through a shared, software-defined data fabric</text>
+
+</svg>
