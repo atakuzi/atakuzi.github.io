@@ -39,6 +39,15 @@ layout: base
         </div>
       {% endif %}
 
+      {% if page.tags.size > 0 %}
+      <div class="post-classification">
+        <span class="clearance-badge">UNCLASSIFIED</span>
+        <span class="tag-list">
+          {% for tag in page.tags %}<a href="{{ '/tags' | relative_url }}#{{- tag -}}">#{{- tag -}}</a>{% endfor %}
+        </span>
+      </div>
+      {% endif %}
+
       <article role="main" class="blog-post">
         {{ content }}
       </article>
