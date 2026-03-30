@@ -152,16 +152,6 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
-.post-classification .clearance-badge {
-  background-color: var(--accent-green);
-  color: #0D1117;
-  padding: 0.15rem 0.55rem;
-  border-radius: 2px;
-  font-weight: 700;
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-}
-
 .post-classification .tag-list {
   display: flex;
   gap: 0.4rem;
